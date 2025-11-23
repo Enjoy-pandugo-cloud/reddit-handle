@@ -1,4 +1,11 @@
-# 📚 StudyHub – Student Productivity & Academic Management Platform
+<h1 align="center"> 📚 StudyHub </h1>
+<h3 align="center">Student Productivity & Academic Management Platform </h3>
+
+<div align="center">
+<img width="225" height="225" src="https://github.com/user-attachments/assets/a114de91-2aca-4b79-9dc9-ddd925bec51f" />
+</div>
+<br>
+<div align="center">
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Latest-orange?style=flat-square&logo=firebase)](https://firebase.google.com)
@@ -6,7 +13,7 @@
 [![License](https://img.shields.io/badge/License-GPL%20v3-red?style=flat-square)](LICENSE)
 [![Dart](https://img.shields.io/badge/Dart-2.19+-0175C2?style=flat-square&logo=dart)](https://dart.dev)
 
----
+</div>
 
 ## 🎯 Overview
 
@@ -131,33 +138,98 @@ StudyHub/
 │   ├── firebase_options.dart              # Firebase initialization
 │   │
 │   ├── models/                            # Data models
-│   │   ├── user_model.dart
+│   │   ├── calendar_event_model.dart
+│   │   ├── certification_model.dart
+│   │   ├── flashcard_model.dart
+│   │   ├── formula_model.dart
+│   │   ├── internship_model.dart
 │   │   ├── note_model.dart
+│   │   ├── portfolio_model.dart
+│   │   ├── qr_code_model.dart
+│   │   ├── resume_model.dart
+│   │   ├── scholarship_model.dart
+│   │   ├── semester_result_model.dart
+│   │   ├── study_session_model.dart
 │   │   ├── task_model.dart
 │   │   ├── timetable_model.dart
-│   │   ├── semester_result_model.dart
-│   │   ├── flashcard_model.dart
-│   │   ├── calendar_event_model.dart
-│   │   └── ... (other models)
+│   │   └── user_model.dart
 │   │
 │   ├── screens/                           # UI Screens
-│   │   ├── home_screen.dart
-│   │   ├── notes_screen.dart
-│   │   ├── tasks_screen.dart
-│   │   ├── timetable_screen.dart
-│   │   ├── performance_tracker_screen.dart
-│   │   ├── ai_tools_screen.dart
-│   │   ├── opportunities_screen.dart
+│   │   ├── ai_tools
+│   │   │   ├── ai_tools_screen.dart
+│   │   │   ├── quiz_generator_screen.dart
+│   │   │   └── summarizer_screen.dart
 │   │   ├── auth_screen.dart
-│   │   └── ... (other screens)
+│   │   ├── auth_wrapper.dart
+│   │   ├── calendar
+│   │   │   └── calendar_screen.dart
+│   │   ├── career
+│   │   │   ├── career_screen.dart
+│   │   │   ├── certifications_screen.dart
+│   │   │   ├── internships_screen.dart
+│   │   │   ├── portfolio_screen.dart
+│   │   │   └── scholarships_screen.dart
+│   │   ├── code_compiler
+│   │   │   └── code_compiler_screen.dart
+│   │   ├── dashboard_screen.dart
+│   │   ├── flashcards
+│   │   │   ├── flashcard_study_screen.dart
+│   │   │   ├── flashcards_screen.dart
+│   │   │   └── generate_flashcards_screen.dart
+│   │   ├── focus_mode
+│   │   │   └── focus_mode_screen.dart
+│   │   ├── formula_library
+│   │   │   └── formula_library_screen.dart
+│   │   ├── home
+│   │   │   └── home_screen.dart
+│   │   ├── main_screen.dart
+│   │   ├── more
+│   │   │   ├── more_screen.dart
+│   │   │   ├── profile_screen.dart
+│   │   │   └── settings_screen.dart
+│   │   ├── notes
+│   │   │   ├── note_editor_screen.dart
+│   │   │   └── notes_screen.dart
+│   │   ├── qr_tools
+│   │   │   └── qr_tools_screen.dart
+│   │   ├── resume
+│   │   │   └── resume_builder_screen.dart
+│   │   ├── schedule
+│   │   │   └── schedule_screen.dart
+│   │   ├── semester_overview
+│   │   │   ├── add_semester_result_screen.dart
+│   │   │   └── semester_overview_screen.dart
+│   │   ├── splash_screen.dart
+│   │   ├── study
+│   │   │   └── study_screen.dart
+│   │   ├── study_timer
+│   │   │   └── study_timer_screen.dart
+│   │   ├── tasks
+│   │   │   └── tasks_screen.dart
+│   │   └── timetable
+│   │       ├── add_timetable_entry_screen.dart
+│   │       └── timetable_screen.dart
 │   │
 │   ├── services/                          # Business logic & API integration
-│   │   ├── firebase_service.dart          # Firebase operations
-│   │   ├── auth_service.dart              # Authentication logic
-│   │   ├── gemini_service.dart            # Google Gemini API integration
-│   │   ├── notes_service.dart
-│   │   ├── tasks_service.dart
-│   │   └── ... (other services)
+│   │   ├── api_service.dart
+│   │   ├── auth_service.dart
+│   │   ├── calendar_service.dart
+│   │   ├── certification_service.dart
+│   │   ├── flashcard_service.dart
+│   │   ├── formula_service.dart
+│   │   ├── gemini_service.dart
+│   │   ├── internship_service.dart
+│   │   ├── note_service.dart
+│   │   ├── portfolio_service.dart
+│   │   ├── qr_code_service.dart
+│   │   ├── resume_service.dart
+│   │   ├── scholarship_service.dart
+│   │   ├── semester_service.dart
+│   │   ├── storage_service.dart
+│   │   ├── task_service.dart
+│   │   ├── theme_provider.dart
+│   │   ├── timetable_service.dart
+│   │   └── user_service.dart
 │   │
 │   └── widgets/                           # Reusable UI components
 │       ├── app_bar.dart
@@ -167,9 +239,71 @@ StudyHub/
 │       └── ... (other widgets)
 │
 ├── android/                               # Android native code & configuration
-├── ios/                                   # iOS native code & configuration
-├── web/                                   # Web platform support
-├── windows/                               # Windows desktop support
+│   ├── app
+│   │   ├── build.gradle
+│   │   ├── google-services.json
+│   │   └── src
+│   │       ├── debug
+│   │       │   └── AndroidManifest.xml
+│   │       ├── main
+│   │       │   ├── AndroidManifest.xml
+│   │       │   ├── java
+│   │       │   │   └── io
+│   │       │   │       └── flutter
+│   │       │   │           └── plugins
+│   │       │   │               └── GeneratedPluginRegistrant.java
+│   │       │   ├── kotlin
+│   │       │   │   └── com
+│   │       │   │       └── studyhub
+│   │       │   │           └── app
+│   │       │   │               └── MainActivity.kt
+│   │       │   └── res
+│   │       │       ├── drawable
+│   │       │       │   └── launch_background.xml
+│   │       │       ├── drawable-hdpi
+│   │       │       │   └── ic_launcher_foreground.png
+│   │       │       ├── drawable-mdpi
+│   │       │       │   └── ic_launcher_foreground.png
+│   │       │       ├── drawable-v21
+│   │       │       │   └── launch_background.xml
+│   │       │       ├── drawable-xhdpi
+│   │       │       │   └── ic_launcher_foreground.png
+│   │       │       ├── drawable-xxhdpi
+│   │       │       │   └── ic_launcher_foreground.png
+│   │       │       ├── drawable-xxxhdpi
+│   │       │       │   └── ic_launcher_foreground.png
+│   │       │       ├── mipmap-anydpi-v26
+│   │       │       │   └── ic_launcher.xml
+│   │       │       ├── mipmap-hdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-mdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xxhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── mipmap-xxxhdpi
+│   │       │       │   └── ic_launcher.png
+│   │       │       ├── values
+│   │       │       │   ├── colors.xml
+│   │       │       │   └── styles.xml
+│   │       │       └── values-night
+│   │       │           └── styles.xml
+│   │       └── profile
+│   │           └── AndroidManifest.xml
+│   ├── build.gradle
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── local.properties
+│   └── settings.gradle
+├── ios/                                   # iOS native code & configuration (Under development)
+├── web/                                   # Web platform support(Under Development)
+├── windows/                               # Windows desktop support (Under Development)
 │
 ├── assets/
 │   └── icons/                             # App icons & assets
@@ -181,7 +315,16 @@ StudyHub/
 ├── firestore.rules                        # Firestore security rules
 ├── analysis_options.yaml                  # Dart linting rules
 │
-├── Documentation.pdf                      # Detailed project documentation
+├── pubspec.lock
+├── pubspec.yaml
+├── studyhub.iml
+├── analysis_options.yaml
+├── firebase.json
+├── firestore.indexes.json
+├── firestore.rules
+├── docs
+│   ├── StudyHub.apk
+│   └── group-doc.pdf
 ├── LICENSE                                # GNU GPL v3 License
 └── README.md                              # This file
 
@@ -235,7 +378,7 @@ match /notes/{noteId} {
 ### **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/adithyasrivatsa/StudyHub.git
+git clone https://github.com/ysathyasai/StudyHub.git
 cd StudyHub
 ```
 
@@ -286,11 +429,6 @@ flutter run -d ios
 flutter build apk --release
 # or for Play Store (AAB format)
 flutter build appbundle --release
-```
-
-**iOS:**
-```bash
-flutter build ios --release
 ```
 
 ---
@@ -460,8 +598,7 @@ flutter test integration_test/
 We welcome contributions from developers, designers, and students! Whether you're fixing bugs, adding features, or improving documentation, your help is valuable.
 
 ### **Before You Start**
-1. Check [existing issues](https://github.com/adithyasrivatsa/StudyHub/issues) and [PRs](https://github.com/adithyasrivatsa/StudyHub/pulls)
-2. Read our [Code of Conduct](#code-of-conduct)
+1. Check [existing issues](https://github.com/ysathyasai/StudyHub/issues) and [PRs](https://github.com/ysathyasai/StudyHub/pulls)
 3. Set up the development environment
 
 ### **Contribution Workflow**
