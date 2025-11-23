@@ -15,9 +15,7 @@
 [![License](https://img.shields.io/badge/License-GPL%20v3-red?style=flat-square)](LICENSE)
 [![Dart](https://img.shields.io/badge/Dart-2.19+-0175C2?style=flat-square&logo=dart)](https://dart.dev)
 
-[🚀 Android App](https://github.com/ysathyasai/StudyHub/releases/download/StudyHub/StudyHub.apk) • [📖 Documentation](https://raw.githubusercontent.com/ysathyasai/StudyHub/main/docs/Group%20Document.pdf) • [🤝 Contributing](https://github.com/ysathyasai/StudyHub?tab=readme-ov-file#project-team) • [📄 LICENSE](LICENSE)
-
-https://github.com/Enjoy-pandugo-cloud/reddit-handle?tab=readme-ov-file#-#👥%20Project%20Team
+[🚀 Android App](https://github.com/ysathyasai/StudyHub/releases/download/StudyHub/StudyHub.apk) • [📖 Documentation](https://raw.githubusercontent.com/ysathyasai/StudyHub/main/docs/Group%20Document.pdf) • [🤝 Contributing](https://github.com/ysathyasai/StudyHub?tab=readme-ov-file#-project-team) • [📄 LICENSE](LICENSE)
 
 </div>
 
