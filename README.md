@@ -1,3 +1,5 @@
+---
+
 <h1 align="center"> 📚 StudyHub </h1>
 <h3 align="center">Student Productivity & Academic Management Platform </h3>
 
@@ -15,6 +17,8 @@
 
 </div>
 
+---
+
 ## 🎯 Overview
 
 StudyHub is a comprehensive student productivity ecosystem designed to streamline academic workflows through a unified, intuitive interface. The platform brings together notes, tasks, timetables, performance tracking, study planning, AI-powered learning tools, and career resources—giving students everything they need in one place.
@@ -27,8 +31,6 @@ StudyHub is a comprehensive student productivity ecosystem designed to streamlin
 - 🎨 Intuitive, modern UI/UX design
 - 🤖 AI-powered personalized learning experiences
 - 📱 Native mobile app with cross-platform support
-
----
 
 ## ✨ Core Features
 
@@ -393,7 +395,8 @@ flutter pub get
 1. Create a Firebase project at [firebase.google.com](https://firebase.google.com)
 2. Add Android and Web apps to your project
 3. Download `google-services.json` (Android) and place in `android/app/`
-4. The Firebase Dart configuration will be auto-generated via:
+4. Also configure the `firebase_options` and `firebase.json` files with the appropriate ID's.
+5. The Firebase Dart configuration will be auto-generated via:
 
 ```bash
 flutterfire configure
@@ -666,16 +669,16 @@ We welcome contributions from developers, designers, and students! Whether you'r
 
 | Name | Roll Number | Role |
 |---|---|---|
-| **Yejju Sathya Sai** | 23054-AI-051 | Project Developer and Documentation |
-| **Mantol Saketh** | 23054-AI-027 | Core Developmer |
-| **Ventrapragada Purna Vikas** | 23054-AI-025 | UI/UX Design & Frontend and Documentation |
-| **Nanduri Eknadha Adithya Srivatsa** | 23054-AI-033 | 🎯 Project Lead & Full-Stack Developer |
-| **Katta Tejeshwar** | 23054-AI-053 | Documentation & DevOps |
-| **Kara Karthikeya** | 23054-AI-023 | App Testing |
-| **Guttapalli Surya Prakash** | 23054-AI-059 | Mobile Optimization |
-| **Koganti Sai Charan** | 23054-AI-062 | API Integration & Backend |
-| **Vankodvath Yekeshwar Naik** | 23054-AI-028 | Database & Security |
-| **Neerati Sri Krishna Teja** | 23054-AI-055 | Feature Development |
+| **[Yejju Sathya Sai](https://github.com/ysathyasai/)** | 23054-AI-051 | Project Developer and Documentation |
+| **[Mantol Saketh](https://github.com/saketh-nandu/)** | 23054-AI-027 | Core Developmer |
+| **[Ventrapragada Purna Vikas](https://github.com/Purnavikas08/)** | 23054-AI-025 | UI/UX Design & Frontend and Documentation |
+| **[Nanduri Eknadha Adithya Srivatsa](https://github.com/adithyasrivatsa/)** | 23054-AI-033 | 🎯 Project Lead & Full-Stack Developer |
+| **[Katta Tejeshwar](https://github.com/KattaTejeshwar/)** | 23054-AI-053 | Documentation & DevOps |
+| **[Guttapalli Surya Prakash](https://github.com/SuryaGuttapalli/)** | 23054-AI-059 | Mobile Optimization |
+| **[Koganti Sai Charan](https://github.com/KOGANTISAICHARAN)** | 23054-AI-062 | API Integration & Backend |
+| **[Kara Karthikeya](https://github.com/karakarthikeya26-beep/)** | 23054-AI-023 | App Testing |
+| **[Vankodvath Yekeshwar Naik](https://github.com/ysathyasai/)** | 23054-AI-028 | Database & Security |
+| **[Neerati Sri Krishna Teja](https://github.com/srikrishnateja55/)** | 23054-AI-055 | Feature Development |
 
 ### **Institution**
 
