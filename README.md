@@ -15,6 +15,8 @@
 [![License](https://img.shields.io/badge/License-GPL%20v3-red?style=flat-square)](LICENSE)
 [![Dart](https://img.shields.io/badge/Dart-2.19+-0175C2?style=flat-square&logo=dart)](https://dart.dev)
 
+[🚀 Live Demo](#-live-project-link) • [📖 Documentation](#-features) • [🤝 Contributing](#-contributing) • [📄 License](#-license)
+
 </div>
 
 ---
@@ -717,3 +719,21 @@ We welcome contributions from developers, designers, and students! Whether you'r
 - 📌 Dark mode refinements
 - 📌 Social features (friend connections, sharing)
 - 📌 Subscription-based premium features
+
+## License
+
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
+
+If you found any bugs, please creat a [**GitHub Issue**](https://github.com/ysathyasai/StudyHub/issues/)
+
+---
+
+<div align="center">
+
+**Made to help the students productivity**
+
+[![GitHub stars](https://img.shields.io/github/stars/ysathyasai/StudyHub?style=social)](https://github.com/ysathyasai/StudyHub/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ysathyasai/StudyHub?style=social)](https://github.com/ysathyasai/StudyHub/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/ysathyasai/StudyHub?style=social)](https://github.com/ysathyasai/StudyHub/watchers)
+
+</div>
