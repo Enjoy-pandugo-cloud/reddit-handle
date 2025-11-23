@@ -527,20 +527,18 @@ We welcome contributions from developers, designers, and students! Whether you'r
 
 ## 👥 Project Team
 
-### **Team Leadership**
-
 | Name | Roll Number | Role |
 |---|---|---|
 | **Yejju Sathya Sai** | 23054-AI-051 | Project Developer and Documentation |
-| **Nanduri Eknadha Adithya Srivatsa** | 23054-AI-033 | 🎯 Project Lead & Full-Stack Developer |
-| **Kara Karthikeya** | 23054-AI-023 | App Testing |
+| **Mantol Saketh** | 23054-AI-027 | Core Developmer |
 | **Ventrapragada Purna Vikas** | 23054-AI-025 | UI/UX Design & Frontend and Documentation |
-| **Mantol Saketh** | 23054-AI-027 | AI Features & Gemini Integration with overall development |
-| **Vankodvath Yekeshwar Naik** | 23054-AI-028 | Database & Security |
+| **Nanduri Eknadha Adithya Srivatsa** | 23054-AI-033 | 🎯 Project Lead & Full-Stack Developer |
 | **Katta Tejeshwar** | 23054-AI-053 | Documentation & DevOps |
-| **Neerati Sri Krishna Teja** | 23054-AI-055 | Feature Development |
+| **Kara Karthikeya** | 23054-AI-023 | App Testing |
 | **Guttapalli Surya Prakash** | 23054-AI-059 | Mobile Optimization |
 | **Koganti Sai Charan** | 23054-AI-062 | API Integration & Backend |
+| **Vankodvath Yekeshwar Naik** | 23054-AI-028 | Database & Security |
+| **Neerati Sri Krishna Teja** | 23054-AI-055 | Feature Development |
 
 ### **Institution**
 
