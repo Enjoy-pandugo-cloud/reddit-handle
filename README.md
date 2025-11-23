@@ -1,7 +1,5 @@
 # 📚 StudyHub – Student Productivity & Academic Management Platform
 
-> *A privacy-centric, mobile-first academic companion for modern learners.*
-
 [![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Latest-orange?style=flat-square&logo=firebase)](https://firebase.google.com)
 [![Google Generative AI](https://img.shields.io/badge/Google%20Gemini-API-yellow?style=flat-square&logo=google)](https://ai.google.dev)
@@ -13,6 +11,8 @@
 ## 🎯 Overview
 
 StudyHub is a comprehensive student productivity ecosystem designed to streamline academic workflows through a unified, intuitive interface. The platform brings together notes, tasks, timetables, performance tracking, study planning, AI-powered learning tools, and career resources—giving students everything they need in one place.
+
+> *A privacy-centric, mobile-first academic companion for modern learners.*
 
 **Key Philosophy:**
 - 🔒 All data stays private and fully user-controlled
@@ -529,9 +529,9 @@ We welcome contributions from developers, designers, and students! Whether you'r
 
 ### **Team Leadership**
 
-| Name | Roll Number | Role | Contact |
-|---|---|---|---|
-| **Yejju Sathya Sai** | 23054-AI-051 | Project Developer |
+| Name | Roll Number | Role |
+|---|---|---|
+| **Yejju Sathya Sai** | 23054-AI-051 | Project Developer and Documentation |
 | **Nanduri Eknadha Adithya Srivatsa** | 23054-AI-033 | 🎯 Project Lead & Full-Stack Developer |
 | **Kara Karthikeya** | 23054-AI-023 | App Testing |
 | **Ventrapragada Purna Vikas** | 23054-AI-025 | UI/UX Design & Frontend and Documentation |
